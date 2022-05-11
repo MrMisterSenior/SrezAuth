@@ -1,0 +1,303 @@
+/*#region Шрифт Roboto*/
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto/Roboto-Thin.ttf');
+    font-weight: 100;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto/Roboto-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto/Roboto-Black.ttf');
+    font-weight: 900;
+}
+/*#endregion Шрифт Roboto*/
+.body-authorization
+{
+    background-color: #304FFD;
+}
+.body-authorization-secondary
+{
+    background-color: #E9F3F5;
+}
+.wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+/*#region Ссылки*/
+a
+{
+    text-decoration: none;
+    color: #304FFD;
+}
+a:hover
+{
+    color: #3b92bb;
+}
+a:active
+{
+    color: #0000bb;
+}
+/*#endregion Ссылки*/
+h3
+{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 23px;
+    color: #3F434A;
+}
+h4
+{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 28px;
+    color: #3F434A;
+}
+.img-illustration
+{
+    height: 58%;
+    width: 41%;
+}
+.img-form
+{
+    width:  25%;
+    display: block;
+    margin: 80px auto 0px auto;
+}
+.big-form-container
+{
+    background-color: white;
+    width: 600px;
+    height: 86.3%;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 27px;
+}
+.big-form-container-2
+{
+    background-color: white;
+    width: 600px;
+    height: auto;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 27px;
+}
+.big-form-container footer
+{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #8A9099;
+}
+.big-form-container-2 footer
+{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #8A9099;
+    margin: 80px auto auto auto;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*#region Поле ввода*/
+.field
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 0 30px 0;
+}
+.field input
+{
+    border-radius: 14px;
+    border-color: #E8E9EB;
+    border-style: solid;
+    height: 40px;
+    background-color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3F434A;
+    padding-left: 16px;
+    margin-top: 9px;
+    outline: none;
+}
+.field label
+{
+    font-family: Roboto;
+    font-size: 14px;
+    color: #8A9099;
+}
+/*#endregion Поле ввода*/
+input[type=password]
+{
+    font-family: Segoe UI;
+    font-size: 30px;
+    letter-spacing: 0.03em;
+    width: 400px;
+}
+/*#region Запомнить меня + забыли пароль*/
+.form-help-container
+{
+    line-height: 18px;
+    height: 18px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #595F69;
+    margin: 0 auto 25px auto;
+}
+.form-help-container a
+{
+    cursor: pointer;
+}
+/*#endregion Запомнить меня + забыли пароль*/
+input[type=checkbox]
+{
+    accent-color: #304FFD;
+    cursor: pointer;
+}
+/*#region Кнопка Submit*/
+input[type=submit]
+{
+    width: 400px;
+    height: 40px;
+    border-radius: 14px;
+    background-color: #304FFD;
+    border-color: #304FFD;
+    border-style: solid;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    transition: box-shadow 0.1s ease-in;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+input[type=submit]:hover
+{
+    background-color: #2e64fd;
+    border-color: #2e64fd;
+}
+input[type=submit]:active
+{
+    background-color: #1c3ffd;
+}
+/*#endregion Кнопка Submit*/
+
+/*#region Кнопка Google*/
+.button-google-login
+{
+    height: 40px;
+    width: 400px;
+    background-color: white;
+    border-color: #E8E9EB;
+    border-radius: 14px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.button-google-login:hover
+{
+    background-color: #ededed;
+}
+.button-google-login:active
+{
+    background-color: #e0e0e0;
+}
+.button-google-login span
+{
+    color: #595F69;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 400;
+}
+.button-google-login img, p
+{
+    width: 16px;
+    height: 16px;
+}
+/*#endregion Кнопка Google*/
+
+/*#region Или через электронную почту*/
+.or-using-email-line
+{
+    width: 400px; 
+    text-align: center;
+    border-bottom: 1px solid #E8E9EB; 
+    line-height: 0.1em;
+    margin: 30px auto; 
+}
+.or-using-email-line span
+{
+    background-color: white;
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8A9099;
+}
+/*#endregion Или через электронную почту*/
+
+.label-accept-politics
+{
+    width: 400px;
+    margin: auto auto 25px auto;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #595F69;
+    cursor: pointer;
+}
+.div-password
+{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.a-toggle-password
+{
+    cursor: pointer;
+    position: absolute;
+    top: 23px;
+    right: 15px;
+}

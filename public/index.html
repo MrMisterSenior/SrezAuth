@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Авторизация</title>
+    <link rel="shortcut icon" href="public/icon.ico" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+</head>
+
+<body class="body-authorization">
+    <div class="wrapper">
+        <img class="illustration" src="img/preview.png"/>
+        <div style="width: 94.12px;"></div>
+        <main class="big-form-container">
+            <div></div>
+            <div class="small-form-container">
+                <h4>Авторизация</h4>
+                <form action="welcome.html">
+                    <div class="field">
+                        <label for="tb_email">Email</label>
+                        <input type="email" id="tb_email" required/>
+                    </div>
+                    <div class="field">
+                        <label for="tb_password">Пароль</label>
+                        <div class="div-password">
+                            <input type="password" id="tb_password" required>
+                            <a class="a-toggle-password">
+                              <img src="img/Eye_Closed.svg"/>
+                            </a>
+                          </div>
+                    </div>
+                    <div class="form-help-container">
+                        <a href="forgot-password.html">
+                            <span>Забыли пароль?</span>
+                        </a>
+                    </div>
+                    <input type="submit" value="Войти">
+                </form>
+            </div>
+
+            <footer>
+                <span>
+                    Ещё нет аккаунта?
+                </span>
+
+                <a href="registration.html">
+                    <span>Зарегистрироваться</span>
+                </a>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>
